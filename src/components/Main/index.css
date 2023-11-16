@@ -1,0 +1,11 @@
+.main {
+    padding: 16px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.main h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #000035;
+}
