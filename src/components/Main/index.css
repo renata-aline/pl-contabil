@@ -1,11 +1,29 @@
 .main {
     padding: 16px;
-    margin-top: 50px;
-    box-sizing: border-box;
+    margin: 16px 0 92px;
+    text-align: center;
 }
 
-.main h2 {
-    font-size: 24px;
-    margin-bottom: 25px;
-    color: #000035;
+.main p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 18px;
+    color:#15297c;
+
 }
+
+.main button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-top: 16px;
+    border: 1px solid #4da768;
+    cursor: pointer;
+    color:#fff;
+    background-color:#4da768;
+    box-shadow: 3px 3px 9px #6daf7e;
+
+}
+
+
+

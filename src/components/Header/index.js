@@ -19,14 +19,17 @@ function Header() {
                 slidesPerView={1}
                 modules={[Pagination, Autoplay]}
             >
-                <SwiperSlide><img className="slider" src="image/img-escritorio.jpg" alt="" />
-                    <p className='text-slider'>Você precisa de um <span>contador ?</span></p>
+                <SwiperSlide>
+                    <img className="slider" src="image/logoslider.jpg" alt="" />
                 </SwiperSlide>
-                <SwiperSlide><img className="slider" src="image/img-escritorio1.jpg" alt="" />
-                    <p className='text-slider'>Conte com nossa experiência em <span>contabilidade !</span></p>
+                <SwiperSlide>
+                    <img className="slider" src="image/logoslider1.jpg" alt="" />
                 </SwiperSlide>
-                <SwiperSlide> <img className="slider" src="image/img-escritorio2.jpg" alt="" />
-                    <button className='button-slider'>Venha nos conhecer!</button>
+                <SwiperSlide> 
+                    <img className="slider" src="image/slider2.jpg" alt="" />
+                </SwiperSlide>
+                <SwiperSlide> 
+                    <img className="slider" src="image/slider3.jpg" alt="" />
                 </SwiperSlide>
 
             </Swiper>
