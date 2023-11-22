@@ -9,7 +9,7 @@ import './index.css'
 function Header() {
 
     return (
-        <div className='container'>
+        <header className='container'>
 
             <Swiper
                 pagination={{
@@ -33,7 +33,7 @@ function Header() {
                 </SwiperSlide>
 
             </Swiper>
-        </div>
+        </header>
 
 
     )

@@ -7,7 +7,6 @@
 .main p {
     margin-bottom: 20px;
     font-size: 18px;
-    line-height: 18px;
     color:#15297c;
 
 }
@@ -23,6 +22,10 @@
     background-color:#4da768;
     box-shadow: 3px 3px 9px #6daf7e;
 
+}
+
+.main button:hover {
+    background-color:#276c2b ;
 }
 
 

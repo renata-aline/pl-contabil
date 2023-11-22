@@ -1,17 +1,15 @@
+import Menu from "../Menu";
+import "./index.css";
 
-import Menu from '../Menu';
-import './index.css'
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <Menu />
+      <a className="navbar_logo" href="/">
+        <img src="/image/logo-pl.jpg" alt="logo da empresa PL-Contabilidade" />
+      </a>
+    </nav>
+  );
+};
 
-
-function Navbar() {
-    return (
-        <header >
-            <div className="navbar">
-                <Menu />
-                <img className="logo" src="/image/logo-pl.jpg" alt="logo da empresa PL-Contabilidade" />
-            </div>
-        </header>
-    )
-}
-
-export default Navbar
+export default Navbar;
