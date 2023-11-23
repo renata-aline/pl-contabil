@@ -21,6 +21,9 @@ const Menu = () => {
               <a href="/">Home</a>
             </li>
             <li>
+              <a href="/sobre-nós">Sobre Nós</a>
+            </li>
+            <li>
               <a href="/servicos">Serviços</a>
             </li>
             <li>
