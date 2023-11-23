@@ -34,9 +34,9 @@
 
 .menu a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.87);
+  color:var(--color-primary);
 }
 
 .menu a:hover {
-  color: #15297c;
+  color: var(--color-primary--50);
 }

@@ -5,7 +5,7 @@
   height: 56px;
   padding: 8px 16px;
   box-sizing: border-box;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--color-third--50);
 }
 
 .navbar .navbar_logo img,
@@ -16,6 +16,7 @@
 .navbar_button-action {
   cursor: pointer;
   background: none;
-  border: 1px solid #ececec;
+  border: 1px solid black;
+  color:var(--color-primary);
   border-radius: 8px;
 }

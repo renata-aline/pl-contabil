@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer_social-media">
-        <a href="https://www.instagram.com/Plservicos" target="_blank">
-          <InstagramIcon fontSize="inherit" />
+        <a href="https://www.instagram.com/Plservicos" target="_blank" className="footer_social-media-link">
+          <InstagramIcon fontSize="inherit"/>
         </a>
-        <a href="mailto:plservicos2018@gmail.com" target="_blank">
-          <MailOutlineIcon fontSize="inherit" />
+        <a href="mailto:plservicos2018@gmail.com" target="_blank" className="footer_social-media-link">
+          <MailOutlineIcon fontSize="inherit"  />
         </a>
       </div>
       <div className="footer_brand">
