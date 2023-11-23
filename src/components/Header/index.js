@@ -20,16 +20,16 @@ function Header() {
                 modules={[Pagination, Autoplay]}
             >
                 <SwiperSlide>
-                    <img className="slider" src="image/logoslider.jpg" alt="" />
+                    <img className="slider" src="images/logoslider.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="slider" src="image/logoslider1.jpg" alt="" />
+                    <img className="slider" src="images/logoslider1.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide> 
-                    <img className="slider" src="image/slider2.jpg" alt="" />
+                    <img className="slider" src="images/slider2.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide> 
-                    <img className="slider" src="image/slider3.jpg" alt="" />
+                    <img className="slider" src="images/slider3.jpg" alt="" />
                 </SwiperSlide>
 
             </Swiper>

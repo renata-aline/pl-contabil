@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <Menu />
       <a className="navbar_logo" href="/">
-        <img src="/image/logo-pl.jpg" alt="logo da empresa PL-Contabilidade" />
+        <img src="/images/logo-pl.jpg" alt="logo da empresa PL-Contabilidade" />
       </a>
     </nav>
   );

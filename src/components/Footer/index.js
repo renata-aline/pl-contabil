@@ -14,7 +14,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer_brand">
-        <img src="/image/logo-pl.jpg" alt="logo da empresa PL-Contabilidade" />
+        <img src="/images/logo-pl.jpg" alt="logo da empresa PL-Contabilidade" />
         <p className="footer_brand-text">
           Prestação de Serviços e Contabilidade
         </p>
