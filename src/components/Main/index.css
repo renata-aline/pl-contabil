@@ -1,33 +1,28 @@
 .main {
-    padding: 16px;
-    margin: 16px 0 92px;
-    text-align: center;
+  padding: 16px;
+  margin: 16px 0 92px;
+  text-align: center;
 }
 
 .main p {
-    margin-bottom: 20px;
-    font-size: 18px;
-    color:var(--color-primary);
-
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: var(--color-primary);
 }
 
 .main button {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 8px 16px;
-    margin-top: 16px;
-    border: 1px solid var(--color-secundary);
-    cursor: pointer;
-    color:#fff;
-    background-color:var(--color-secundary);
-    box-shadow: 3px 3px 9px var(--color-secundary--50);
-    border-radius: 18px;
-
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 16px;
+  margin-top: 16px;
+  border: 1px solid var(--color-secundary);
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--color-secundary);
+  box-shadow: 3px 3px 9px var(--color-secundary--50);
+  border-radius: 18px;
 }
 
 .main button:hover {
-    background-color:var(--color-secundary--100) ;
+  background-color: var(--color-secundary--100);
 }
-
-
-
