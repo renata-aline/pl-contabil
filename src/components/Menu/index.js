@@ -1,21 +1,30 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./index.css";
 
 const Menu = () => {
   const [isToggle, setToggle] = useState(false);
-
+  const isMobile = useMediaQuery("(max-width: 768px)");
+  
+  useEffect(() => {
+    setToggle(!isMobile)
+  }, [isMobile]);
+ 
   return (
     <>
-      <button
-        onClick={() => setToggle(!isToggle)}
-        type="button"
-        className="navbar_button-action"
-      >
-        <MenuIcon />
-      </button>
+      {isMobile && (
+        <button
+          onClick={() => setToggle(!isToggle)}
+          type="button"
+          className="navbar_button-action"
+        >
+          <MenuIcon />
+        </button>
+      )}
+
       {isToggle && (
-        <div className="menu">
+        <div className={`menu ${!isMobile && 'active'}`}>
           <ul>
             <li>
               <a href="/">Home</a>

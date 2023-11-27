@@ -2,17 +2,27 @@
   padding: 16px;
   margin: 16px 0 92px;
   text-align: center;
+
+  @media (min-width: 769px) {
+    max-width: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 24px 0;
+  }
+
+}
+.main-title {
+   font:var(--typography-mobile-headline1); 
 }
 
 .main p {
   margin-bottom: 20px;
-  font-size: 18px;
+  font: var(--typography-mobile-body2);
   color: var(--color-primary);
 }
 
 .main button {
-  font-size: 18px;
-  font-weight: bold;
+  font: var(--typography-mobile-button);
   padding: 8px 16px;
   margin-top: 16px;
   border: 1px solid var(--color-secundary);
@@ -21,6 +31,16 @@
   background-color: var(--color-secundary);
   box-shadow: 3px 3px 9px var(--color-secundary--50);
   border-radius: 18px;
+
+  
+  @media (min-width: 768px) {
+    font: var(--typography-tablet-button);
+  }
+
+
+  @media (min-width: 769px) {
+    font: var(--typography-desktop-button);
+  }
 }
 
 .main button:hover {

@@ -7,6 +7,14 @@
   box-sizing: border-box;
   border-bottom: 1px solid var(--color-third--50);
 
+  @media (min-width: 769px) {
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    height: 72px;
+    padding: 16px 0;
+    border-bottom: 0;
+  }
 }
 
 .navbar .navbar_logo img,
@@ -20,5 +28,5 @@
   border: 1px solid black;
   color: var(--color-primary);
   border-radius: 8px;
-
+  display: block;
 }

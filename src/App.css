@@ -6,5 +6,31 @@
    --color-secundary--100:#276c2b;
    --color-third:#ececec;
    --color-third--50:#9DBAC9;
-    
+
+   --typography-mobile-headline1: 400 50px/normal 'Roboto', sans-serif;
+   --typography-mobile-headline2: 400 50px/normal 'Roboto', sans-serif;
+   --typography-mobile-headline3: 400 50px/normal 'Roboto', sans-serif;
+   --typography-mobile-subtitle1: 400 14px/normal 'Roboto', sans-serif;
+   --typography-mobile-subtitle2: 400 12px/normal 'Roboto', sans-serif;
+   --typography-mobile-body1: 100 16px/normal 'Roboto', sans-serif;
+   --typography-mobile-body2: 100 18px/normal 'Roboto', sans-serif;
+   --typography-mobile-button: 400 16px/normal 'Roboto', sans-serif;
+
+   --typography-tablet-headline1: 400 50px/normal 'Roboto', sans-serif;
+   --typography-tablet-headline2: 400 50px/normal 'Roboto', sans-serif;
+   --typography-tablet-headline3: 400 50px/normal 'Roboto', sans-serif;
+   --typography-tablet-subtitle1: 400 16px/normal 'Roboto', sans-serif;
+   --typography-tablet-subtitle2: 400 14px/normal 'Roboto', sans-serif;
+   --typography-tablet-body1: 100 18px/normal 'Roboto', sans-serif;
+   --typography-tablet-body2: 100 20px/normal 'Roboto', sans-serif;
+   --typography-tablet-button: 400 16px/normal 'Roboto', sans-serif;
+
+   --typography-desktop-headline1: 400 50px/normal 'Roboto', sans-serif;
+   --typography-desktop-headline2: 400 50px/normal 'Roboto', sans-serif;
+   --typography-desktop-headline3: 400 50px/normal 'Roboto', sans-serif;
+   --typography-desktop-subtitle1: 400 18px/normal 'Roboto', sans-serif;
+   --typography-desktop-subtitle2: 400 16px/normal 'Roboto', sans-serif;
+   --typography-desktop-body1: 100 50px/normal 'Roboto', sans-serif;
+   --typography-desktop-body2: 100 50px/normal 'Roboto', sans-serif;
+   --typography-desktop-button: 400 18px/normal 'Roboto', sans-serif;
 }

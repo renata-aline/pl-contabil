@@ -10,6 +10,10 @@
   z-index: 10;
 }
 
+.menu.active::after {
+  display: none;
+}
+
 .menu ul {
   width: 100%;
   list-style: none;
@@ -17,8 +21,7 @@
   top: 56px;
   left: 0;
   right: 0;
-  font-size: 16px;
-  font-weight: 400;
+  font: var(--typography-mobile-subtitle1);
   padding: 8px;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 3px 0px;
@@ -27,7 +30,18 @@
   box-sizing: border-box;
 
   @media (min-width: 768px) {
-    font-size: 18px;
+    background-color: aqua;
+    font: var(--typography-tablet-subtitle1);
+  }
+
+  @media (min-width: 769px) {
+    display: flex;
+    justify-content: center;
+    position: initial;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    gap:10px;
   }
 }
 
@@ -39,6 +53,7 @@
 .menu a {
   text-decoration: none;
   color: var(--color-primary);
+  font: inherit;
 }
 
 .menu a:hover {

@@ -5,7 +5,6 @@
   width: 100%;
   position: fixed;
   bottom: 0;
-
 }
 
 .footer_social-media {
@@ -25,6 +24,8 @@
 .footer_social-media-link:active,
 .footer_social-media-link {
   color: var(--color-primary);
+  display: flex;
+  justify-content: center;
 }
 
 .footer_brand {
@@ -44,11 +45,10 @@
 }
 
 .footer_brand-text {
-  font-size: 12px;
+  font: var(--typography-mobile-subtitle2);
   color: var(--color-primary);
 
-
   @media (min-width: 768px) {
-    font-size: 14px;
+    font: var(--typography-tablet-subtitle2);
   }
 }
