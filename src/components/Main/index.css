@@ -19,6 +19,10 @@
   margin-bottom: 20px;
   font: var(--typography-mobile-body2);
   color: var(--color-primary);
+
+  @media (min-width: 769px) {
+    font: var(--typography-desktop-body2);
+  }
 }
 
 .main button {

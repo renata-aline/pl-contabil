@@ -1,3 +1,4 @@
+// import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -25,6 +26,14 @@ const Menu = () => {
 
       {isToggle && (
         <div className={`menu ${!isMobile && 'active'}`}>
+            {/* <Link to="/">Home</Link>
+            <Link to="/About">Sobre Nós</Link>
+            <Link to="/Services">Serviços</Link>
+            <Link to="/">Duvidas Frequentes</Link>
+            <Link to="/Contacts">Contato</Link>
+             */}
+
+
           <ul>
             <li>
               <a href="/">Home</a>
@@ -41,7 +50,7 @@ const Menu = () => {
             <li>
               <a href="/contato">Contato</a>
             </li>
-          </ul>
+          </ul> 
         </div>
       )}
     </>

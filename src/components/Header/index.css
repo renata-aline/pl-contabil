@@ -1,22 +1,22 @@
 .container {
-   position: relative;
-   width: 100vw;
-   height: 35vh;
+  position: relative;
+  width: 100vw;
+  height: 35vh;
   max-width: 1440px;
   margin: 0 auto;
 
-  @media(min-width: 769px) {
-   width: 100vw;
-   height: 55vh;
+  @media (min-width: 769px) {
+    width: 100vw;
+    height: 55vh;
   }
 }
 
 .slider_img {
-   object-fit: cover;
-   width: 100vw;
-   height: 35vh;
-   @media(min-width: 769px) {
-      width: 100vw;
-      height: 55vh;
-     }
+  object-fit: cover;
+  width: 100vw;
+  height: 35vh;
+  @media (min-width: 769px) {
+    width: 100vw;
+    height: 55vh;
+  }
 }

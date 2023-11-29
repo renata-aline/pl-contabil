@@ -12,7 +12,7 @@ const Footer = () => {
           target="_blank"
           className="footer_social-media-link"
         >
-          <WhatsAppIcon />
+          <WhatsAppIcon fontSize="inherit" />
         </a>
         <a
           href="https://www.instagram.com/Plservicos"

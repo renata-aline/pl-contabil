@@ -1,6 +1,6 @@
 import './index.css'
 
-function Main() {
+const Main = () => {
 
     return (
         <main className='main'>
