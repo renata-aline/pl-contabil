@@ -1,15 +1,12 @@
 
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
+import Layout from "../../components/Layout";
 import "./index.css";
 
 const Contacts = () => {
   return (
-    <>
-      <Navbar />
-      
-      <Footer />
-    </>
+    <Layout slides={["images/slider3.jpg"]}>
+      trtyrytr
+    </Layout>
   );
 }
 

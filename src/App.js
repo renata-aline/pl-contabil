@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages";
+import Home from "./pages/home";
 import Maintenance from "./pages/maintenance";
 import Contacts from "./pages/contacts";
 import Services from "./pages/services";

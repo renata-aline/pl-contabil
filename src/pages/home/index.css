@@ -1,21 +1,9 @@
-.main {
-  padding: 16px;
-  margin: 16px 0 92px;
-  text-align: center;
 
-  @media (min-width: 769px) {
-    max-width: 1024px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 24px 0;
-  }
-
-}
-.main-title {
+.home .title {
    font:var(--typography-mobile-headline1); 
 }
 
-.main p {
+.home p {
   margin-bottom: 20px;
   font: var(--typography-mobile-body2);
   color: var(--color-primary);
@@ -25,7 +13,7 @@
   }
 }
 
-.main button {
+.home button {
   font: var(--typography-mobile-button);
   padding: 8px 16px;
   margin-top: 16px;
@@ -36,17 +24,15 @@
   box-shadow: 3px 3px 9px var(--color-secundary--50);
   border-radius: 18px;
 
-  
   @media (min-width: 768px) {
     font: var(--typography-tablet-button);
   }
-
 
   @media (min-width: 769px) {
     font: var(--typography-desktop-button);
   }
 }
 
-.main button:hover {
+.home button:hover {
   background-color: var(--color-secundary--100);
 }

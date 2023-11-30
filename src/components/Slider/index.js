@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./index.css";
 
-function Header() {
+function Slider({ images }) {
   return (
     <header className="container">
       <Swiper
@@ -29,7 +29,12 @@ function Header() {
           <img className="slider_img" src="https://source.unsplash.com/random/1024x720" 
             alt="" />
         </SwiperSlide> */}
-        <SwiperSlide>
+        {images.map((image) => (
+          <SwiperSlide>
+            <img className="slider_img" src={image} alt="imagem" />
+          </SwiperSlide>
+        ))}
+        {/* <SwiperSlide>
           <img className="slider_img" src="images/slider3.jpg" 
   alt="" />
         </SwiperSlide>
@@ -41,10 +46,10 @@ function Header() {
         </SwiperSlide> 
         <SwiperSlide>
           <img className="slider_img" src="images/images2.jpeg" alt="" />
-        </SwiperSlide> 
+        </SwiperSlide>  */}
       </Swiper>
     </header>
   );
 }
 
-export default Header;
+export default Slider;
