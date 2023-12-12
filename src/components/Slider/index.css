@@ -6,7 +6,6 @@
   margin: 0 auto;
 
   @media (min-width: 769px) {
-    width: 100vw;
     height: 55vh;
   }
 }
@@ -15,8 +14,8 @@
   object-fit: cover;
   width: 100vw;
   height: 35vh;
+
   @media (min-width: 769px) {
-    width: 100vw;
     height: 55vh;
   }
 }

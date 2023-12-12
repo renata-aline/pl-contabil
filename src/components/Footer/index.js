@@ -8,6 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer_social-media">
         <a
+          rel="noreferrer"
           href="https://api.whatsapp.com/send?phone=5538991268228"
           target="_blank"
           className="footer_social-media-link"
@@ -15,6 +16,7 @@ const Footer = () => {
           <WhatsAppIcon fontSize="inherit" />
         </a>
         <a
+          rel="noreferrer"
           href="https://www.instagram.com/Plservicos"
           target="_blank"
           className="footer_social-media-link"
@@ -22,6 +24,7 @@ const Footer = () => {
           <InstagramIcon fontSize="inherit" />
         </a>
         <a
+          rel="noreferrer"
           href="mailto:plservicos2018@gmail.com"
           target="_blank"
           className="footer_social-media-link"

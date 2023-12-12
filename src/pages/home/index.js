@@ -12,6 +12,7 @@ const Home = () => {
             empresa, deixe a gestão da contabilidade conosco!
           </p>
           <a
+            rel="noreferrer"
             href="https://api.whatsapp.com/send?phone=5538991268228"
             target="_blank"
           >
