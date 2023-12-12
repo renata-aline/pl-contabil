@@ -1,15 +1,13 @@
-
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
+import Layout from "../../components/Layout";
 import "./index.css";
 
 const Services = () => {
   return (
-    <>
-    <h1>teste</h1>
-      <Navbar /> 
-       <Footer />
-    </>
+    <Layout slides={["images/images2.jpeg"]}>
+      ola mundo
+
+    </Layout>
+   
   );
 }
 

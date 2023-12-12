@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -7,11 +7,11 @@ import "./index.css";
 const Menu = () => {
   const [isToggle, setToggle] = useState(false);
   const isMobile = useMediaQuery("(max-width: 768px)");
-  
+
   useEffect(() => {
-    setToggle(!isMobile)
+    setToggle(!isMobile);
   }, [isMobile]);
- 
+
   return (
     <>
       {isMobile && (
@@ -25,32 +25,24 @@ const Menu = () => {
       )}
 
       {isToggle && (
-        <div className={`menu ${!isMobile && 'active'}`}>
-            {/* <Link to="/">Home</Link>
-            <Link to="/About">Sobre Nós</Link>
-            <Link to="/Services">Serviços</Link>
-            <Link to="/">Duvidas Frequentes</Link>
-            <Link to="/Contacts">Contato</Link>
-             */}
-
-
+        <div className={`menu ${!isMobile && "active"}`}>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/sobre-nós">Sobre Nós</a>
+              <Link to="/sobre-nos">Sobre Nós</Link>
             </li>
             <li>
-              <a href="/servicos">Serviços</a>
+              <Link to="/servicos">Serviços</Link>
             </li>
             <li>
-              <a href="/duvidas-frequentes">Dúvidas Frequentes</a>
+              <Link to="/duvidas-frequentes">Duvidas Frequentes</Link>
             </li>
             <li>
-              <a href="/contato">Contato</a>
+              <Link to="/contato">Contato</Link>
             </li>
-          </ul> 
+          </ul>
         </div>
       )}
     </>
