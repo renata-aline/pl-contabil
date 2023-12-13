@@ -6,11 +6,11 @@
   margin: 0 auto;
   
   @media (min-width: 426px) {
-    height: auto;
+    height: auto !important;
   }
   
   @media (min-width: 769px) {
-    height: initial;
+    height: auto !important;
     max-height: 461px;
   }
 }
@@ -21,11 +21,11 @@
   height: 200px;
     
   @media (min-width: 426px) {
-    height: auto;
+    height: auto !important;
   }
 
   @media (min-width: 769px) {
-    height: initial;
+    height: auto !important;
     object-fit: contain;
     max-width: 1440px;
     max-height: 461px;
