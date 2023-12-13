@@ -6,7 +6,7 @@ import "./index.css";
 
 const Contacts = () => {
   return (
-    <Layout slides={["images/images2.jpeg"]}>
+    <Layout slides={["images/slider/contato.png"]}>
       <section className="contacts">
         <div className="contacts_info">
           <LocalPhoneIcon />

@@ -1,21 +1,33 @@
 .container {
   position: relative;
   width: 100vw;
-  height: 35vh;
+  height: 200px;
   max-width: 1440px;
   margin: 0 auto;
-
+  
+  @media (min-width: 425px) {
+    height: auto;
+  }
+  
   @media (min-width: 769px) {
-    height: 55vh;
+    height: initial;
+    max-height: 461px;
   }
 }
 
 .slider_img {
   object-fit: cover;
   width: 100vw;
-  height: 35vh;
+  height: 200px;
+  
+  @media (min-width: 425px) {
+    height: auto;
+  }
 
   @media (min-width: 769px) {
-    height: 55vh;
+    height: initial;
+    object-fit: contain;
+    max-width: 1440px;
+    max-height: 461px;
   }
 }

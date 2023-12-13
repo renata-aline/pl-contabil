@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Menu from "../Menu";
 import "./index.css";
 
@@ -6,9 +7,9 @@ const Navbar = () => {
     <nav className="navbar">
       <Menu />
 
-      <a className="navbar_logo" href="/">
-        <img src="/images/logo-pl.jpg" alt="logo da empresa PL-Contabilidade" />
-      </a>
+      <Link to="/" className="navbar_logo">
+        <img src="./images/logo-pl.png" alt="logo da empresa PL-Contabilidade" />
+      </Link>
     </nav>
   );
 };

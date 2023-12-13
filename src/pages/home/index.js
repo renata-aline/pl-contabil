@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 const Home = () => {
   return (
     <>
-      <Layout slides={["images/slider3.jpg", "images/images.jpeg","images/images1.jpeg"]}>
+      <Layout slides={[ "images/slider/slide-1.png","images/slider/slide-2.png", "images/slider/slide-3.png","images/slider/slide-4.png"]}>
         <section className="home">
           <p>
             Nossa assessoria dará a seu negócio a tranquilidade e eficiência na
